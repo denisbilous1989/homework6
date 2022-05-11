@@ -22,7 +22,7 @@
 }
 
 body {
-  font-family: 'roboto';
+  font-family: 'roboto' Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -30,11 +30,10 @@ header {
 }
 
 .container {
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
-  
-  margin: 0 0 0 570px;
 }
 
 span {
@@ -54,7 +53,19 @@ span {
   margin: 5px 20px 5px 20px;
 }
 
-.about,  .work, .process, .contacts {
+.text {
+  padding: 20px;
+  background-color: #EEEFF1;
+}
+
+.text p {
+  max-width: 540px;
+}
+
+.about,
+.work,
+.process,
+.contacts {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -71,12 +82,6 @@ h1 {
   font-size: 48px;
   line-height: 79px;
   color: #000000;
-  
-}
-
-.text {
-  margin: 100px 20px 0 20px;
-  max-width: 500px;
   
 }
 
@@ -119,12 +124,7 @@ h2 {
 }
 
 .txt p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
   text-align: center;
-  color: #727272;
 }
 
 .icons {
@@ -143,11 +143,12 @@ img {
 
 ul {
   margin: 0;
+  padding: 0;
 }
 
 li {
   display: inline-block;
-  padding: 0 60px;
+  padding: 0 40px;
 }
 
 .number-item {
@@ -167,14 +168,7 @@ h3 {
 
 li p {
   margin: 0 auto;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-
-color: #FFFFFF;
-
+  color: #FFFFFF;
 }
 
 .project {
@@ -197,20 +191,11 @@ iframe {
 
 footer {
   background: #34547A;
-
+  padding: 20px;
 }
 
 .cont {
 padding: 20px 0 20px 0;
-}
-
-.cont h3 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 21px;
-  line-height: 25px;
-  color: #FFFFFF;
-  margin-left: 570px;
 }
 
 .cont p {
@@ -219,5 +204,4 @@ padding: 20px 0 20px 0;
   font-size: 13px;
   line-height: 21px;
   color: #FFFFFF;
-  margin-left: 570px;
 }
